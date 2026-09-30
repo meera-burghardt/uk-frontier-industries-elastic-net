@@ -1,0 +1,21 @@
+# Data — never commit
+data/raw/
+data/processed/
+*.parquet
+*.csv
+*.xlsx
+*.xls
+*.geojson
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
