@@ -1,0 +1,30 @@
+                         Results: Ordinary least squares
+==================================================================================
+Model:              OLS                              Adj. R-squared:     0.122    
+Dependent Variable: emp_share_Advanced manufacturing AIC:                1714.0824
+Date:               2026-10-03 13:01                 BIC:                1736.7484
+No. Observations:   323                              Log-Likelihood:     -851.04  
+Df Model:           5                                F-statistic:        9.984    
+Df Residuals:       317                              Prob (F-statistic): 6.94e-09 
+R-squared:          0.136                            Scale:              11.594   
+-----------------------------------------------------------------------------------
+                                Coef.   Std.Err.     t     P>|t|    [0.025   0.975]
+-----------------------------------------------------------------------------------
+const                           0.7312    1.2564   0.5820  0.5610  -1.7408   3.2031
+Apprenticeship achievements     0.0028    0.0028   1.0195  0.3087  -0.0026   0.0082
+Broadband availability          0.0127    0.0119   1.0706  0.2852  -0.0107   0.0361
+Deaths of enterprises          -0.0007    0.0002  -2.6988  0.0073  -0.0012  -0.0002
+Apprenticeship starts           0.0025    0.0013   1.8461  0.0658  -0.0002   0.0051
+Smokers                        -0.1196    0.0489  -2.4478  0.0149  -0.2158  -0.0235
+----------------------------------------------------------------------------------
+Omnibus:                   383.159           Durbin-Watson:              1.953    
+Prob(Omnibus):             0.000             Jarque-Bera (JB):           26807.885
+Skew:                      5.256             Prob(JB):                   0.000    
+Kurtosis:                  46.375            Condition No.:              10336    
+==================================================================================
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly
+specified.
+[2] The condition number is large, 1.03e+04. This might indicate
+that there are strong multicollinearity or other numerical
+problems.

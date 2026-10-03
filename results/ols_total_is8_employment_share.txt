@@ -1,0 +1,30 @@
+                    Results: Ordinary least squares
+========================================================================
+Model:               OLS                  Adj. R-squared:      0.526    
+Dependent Variable:  emp_share_total_IS8  AIC:                 2365.5933
+Date:                2026-10-03 13:01     BIC:                 2388.1656
+No. Observations:    318                  Log-Likelihood:      -1176.8  
+Df Model:            5                    F-statistic:         71.34    
+Df Residuals:        312                  Prob (F-statistic):  1.30e-49 
+R-squared:           0.533                Scale:               97.749   
+------------------------------------------------------------------------
+                         Coef.  Std.Err.    t    P>|t|   [0.025   0.975]
+------------------------------------------------------------------------
+const                   -5.1507   4.7212 -1.0910 0.2761 -14.4402  4.1388
+High growth enterprises  0.1519   0.0191  7.9521 0.0000   0.1143  0.1895
+GVA per hour             0.6445   0.0724  8.9026 0.0000   0.5021  0.7870
+Under 75 mortality rate -0.2179   0.0397 -5.4823 0.0000  -0.2961 -0.1397
+total_HE_students       -0.0000   0.0000 -1.3505 0.1778  -0.0000  0.0000
+Level 3+ qualifications  0.2836   0.0686  4.1315 0.0000   0.1485  0.4187
+------------------------------------------------------------------------
+Omnibus:                79.292         Durbin-Watson:            1.887  
+Prob(Omnibus):          0.000          Jarque-Bera (JB):         243.930
+Skew:                   1.099          Prob(JB):                 0.000  
+Kurtosis:               6.685          Condition No.:            788904 
+========================================================================
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is
+correctly specified.
+[2] The condition number is large, 7.89e+05. This might indicate
+that there are strong multicollinearity or other numerical
+problems.

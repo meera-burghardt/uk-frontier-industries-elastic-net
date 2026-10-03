@@ -1,0 +1,24 @@
+                       Results: Ordinary least squares
+==============================================================================
+Model:              OLS                          Adj. R-squared:     0.377    
+Dependent Variable: emp_share_Financial Services AIC:                1900.1768
+Date:               2026-10-03 13:01             BIC:                1911.7161
+No. Observations:   346                          Log-Likelihood:     -947.09  
+Df Model:           2                            F-statistic:        105.2    
+Df Residuals:       343                          Prob (F-statistic): 2.29e-36 
+R-squared:          0.380                        Scale:              14.088   
+-------------------------------------------------------------------------------
+                            Coef.   Std.Err.     t     P>|t|    [0.025   0.975]
+-------------------------------------------------------------------------------
+const                      -3.7048    0.9112  -4.0656  0.0001  -5.4971  -1.9124
+High growth enterprises     0.0565    0.0052  10.8673  0.0000   0.0462   0.0667
+GVA per hour                0.1394    0.0255   5.4645  0.0000   0.0893   0.1896
+------------------------------------------------------------------------------
+Omnibus:                 310.343          Durbin-Watson:             1.946    
+Prob(Omnibus):           0.000            Jarque-Bera (JB):          10649.760
+Skew:                    3.558            Prob(JB):                  0.000    
+Kurtosis:                29.231           Condition No.:             267      
+==============================================================================
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is
+correctly specified.
