@@ -822,7 +822,7 @@ axes[1].tick_params(axis="y", labelsize=13)
 axes[1].tick_params(axis="x", labelsize=11)
 axes[1].xaxis.set_major_locator(MaxNLocator(5))
 axes[1].xaxis.set_major_formatter(
-    FuncFormatter(lambda x, _: f"{int(x):+,}" if x else "0")
+    FuncFormatter(lambda x, _: f"−{int(x):,}" if x else "0")
 )
 axes[1].set_xlim(0, strengths_df["Jobs at risk"].max() * 1.3)
 
