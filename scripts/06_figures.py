@@ -691,8 +691,6 @@ save_fig(fig, "05_glasgow_shift_share")
 
 
 # ---- Figure 6: Barriers quantified in jobs ---------------------------------
-# Strengths get BLUE (positive framing — what's working), barriers get RED
-# (the gaps costing Glasgow jobs). Clearer subtitles below.
 
 print("\n---- Figure 6: Glasgow barriers quantified in jobs ----")
 
