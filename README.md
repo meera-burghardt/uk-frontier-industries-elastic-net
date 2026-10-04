@@ -28,7 +28,7 @@ This project asks two questions. First, what local conditions are associated wit
 
 ![Only 15% of Glasgow's +37,710 new IS8 jobs reflect genuine local advantage](figures/readme/05_glasgow_shift_share.png)
 
-**Glasgow's health gap is associated with approximately 51,000 fewer IS8 jobs.** The under-75 mortality rate in Glasgow is nearly three times the UK average, and this gap is the single largest negative predictor in the elastic net model. A counterfactual analysis substituting the UK average on each indicator estimates that closing the four health-related gaps alone (mortality, smoking prevalence, male healthy life expectancy, and GVA per hour) would be associated with roughly 51,000 additional IS8 jobs. This figure is correlational, not causal, but the magnitude is sufficient to reframe health as economic infrastructure rather than social policy alone.
+**Glasgow's health gap is associated with approximately 51,000 fewer IS8 jobs.** The under-75 mortality rate in Glasgow is nearly three times the UK average, and this gap is the single largest negative predictor in the elastic net model. A counterfactual analysis substituting the UK average on each indicator estimates that closing the three health-related gaps alone (mortality, smoking prevalence, and male healthy life expectancy) would be associated with roughly 51,000 additional IS8 jobs. This figure is correlational, not causal, but the magnitude is sufficient to reframe health as economic infrastructure rather than social policy alone.
 
 ## Policy implications
 
