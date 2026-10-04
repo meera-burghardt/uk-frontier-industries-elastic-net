@@ -791,8 +791,9 @@ for _, row in barriers_df.iterrows():
                  va="center", ha="left", fontsize=13,
                  color=TEXT, fontweight="semibold")
 axes[0].set_xlabel("Jobs", fontsize=14)
-axes[0].set_title("Barriers: jobs Glasgow could gain by closing each gap",
-                  loc="left", color=NAVY, pad=10, fontsize=15)
+axes[0].text(-0.3, 1.08, "Barriers: jobs Glasgow could gain by closing each gap",
+             transform=axes[0].transAxes, color=NAVY,
+             fontsize=15, fontweight="semibold", ha="left", va="bottom")
 axes[0].grid(axis="x", alpha=0.25, linewidth=0.5, zorder=0)
 axes[0].set_axisbelow(True)
 axes[0].tick_params(axis="y", labelsize=13)
@@ -812,8 +813,9 @@ for _, row in strengths_df.iterrows():
                  va="center", ha="left", fontsize=13,
                  color=TEXT, fontweight="semibold")
 axes[1].set_xlabel("Jobs", fontsize=14)
-axes[1].set_title("Strengths: jobs Glasgow would lose without each strength",
-                  loc="left", color=NAVY, pad=10, fontsize=15)
+axes[1].text(-0.33, 1.08, "Strengths: jobs Glasgow would lose without each strength",
+             transform=axes[1].transAxes, color=NAVY,
+             fontsize=15, fontweight="semibold", ha="left", va="bottom")
 axes[1].grid(axis="x", alpha=0.25, linewidth=0.5, zorder=0)
 axes[1].set_axisbelow(True)
 axes[1].tick_params(axis="y", labelsize=13)
@@ -829,11 +831,11 @@ fig.suptitle(
         f"Health-related barriers alone account for almost {int(round(health_jobs / 1000)) * 1000:,} potential Glasgow IS8 jobs",
         fig.get_size_inches()[0], chars_per_inch=10,
     ),
-    x=0.05, y=0.97, ha="left", color=NAVY,
+    x=0.02, y=0.97, ha="left", color=NAVY,
     fontsize=18, fontweight="semibold",
 )
 plt.tight_layout()
-fig.subplots_adjust(top=0.86)
+fig.subplots_adjust(top=0.81)
 save_fig(fig, "06_glasgow_barriers_strengths_jobs")
 
 print("\nDone.")
